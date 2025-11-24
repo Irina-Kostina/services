@@ -31,7 +31,8 @@ body {
 }
 
 .section {
-  padding: 4rem 0;
+  padding: 2.2rem 0;
+  scroll-margin-top: 4.5rem; /* Updated */
 }
 
 .section-alt {
@@ -156,7 +157,8 @@ body {
 
 /* === Hero / intro === */
 .hero {
-  padding: 4.5rem 0 3.5rem;
+  padding: 4rem 0 1.2rem;
+  scroll-margin-top: 4.5rem; /* Updated */
 }
 
 .hero-inner {
@@ -407,11 +409,13 @@ h4 {
 
 @media (max-width: 768px) {
   .section {
-    padding: 3.25rem 0;
+    padding: 2.4rem 0;
+    scroll-margin-top: 4.3rem;
   }
 
   .hero {
     padding-top: 3.25rem;
+    scroll-margin-top: 4.3rem;
   }
 }
 
