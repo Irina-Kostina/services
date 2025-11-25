@@ -186,7 +186,8 @@ body {
 .hero-subtitle {
   font-size: 1rem;
   color: #4b5563;
-  max-width: 34rem;
+  /* max-width: 34rem; */
+  text-align: justify;
   margin: 0;
 }
 
@@ -234,6 +235,7 @@ h4 {
   padding-left: 1.25rem;
   margin: 1rem 0 0;
   color: #374151;
+  text-align: justify;
 }
 
 .bullet-list li + li {
@@ -245,6 +247,7 @@ h4 {
   list-style: none;
   padding: 0;
   margin: 2rem 0 0;
+  text-align: justify;
 }
 
 .steps li {
